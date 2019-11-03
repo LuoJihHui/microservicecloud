@@ -12,7 +12,7 @@
     <artifactId>microservicecloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>microservicecloud</name>
-    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,5 +81,7 @@
             </plugin>
         </plugins>
     </build>
-
+    <modules>
+        <module>microservicecloud-api</module>
+    </modules>
 </project>
