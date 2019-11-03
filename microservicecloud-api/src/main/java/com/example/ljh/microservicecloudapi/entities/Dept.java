@@ -32,4 +32,8 @@ public class Dept implements Serializable {
      * 数据来源
      */
     private String db_source;
+
+    public Dept(String dnamel) {
+        this.dnamel = dnamel;
+    }
 }
